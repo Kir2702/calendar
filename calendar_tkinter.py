@@ -65,7 +65,7 @@ def fill():
         days[week_day + month_days + n]['background'] = '#000000'
 
 
-# отоброжение 
+# отображение 
 prew_button = Button(root, text='<-', command=prew)
 prew_button.grid(row=0, column=0, sticky='nsew')
 next_button = Button(root, text='->', command=next)
